@@ -1,0 +1,24 @@
+page{
+	background: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1509546365298&di=27a9c45b91af74df82766cbe7662e362&imgtype=0&src=http%3A%2F%2Fpic26.nipic.com%2F20121228%2F10621269_105638864000_2.jpg') no-repeat;
+	background-size: 100% 100%;
+}
+
+
+.index-hd {
+  padding: 80rpx;
+  text-align: center;
+  padding: 20rpx 26rpx 40rpx;
+}
+
+.index-desc {
+  margin-top: 650rpx;
+  color: #888888;
+  font-size: 28rpx;
+}
+
+button{
+  margin-top: 40rpx;
+  width: 400rpx;
+  background: red;
+  color: white;
+}

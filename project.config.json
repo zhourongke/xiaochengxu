@@ -1,0 +1,49 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true
+	},
+	"compileType": "weapp",
+	"libVersion": "1.6.0",
+	"appid": "touristappid",
+	"projectname": "zhou",
+	"condition": {
+		"weapp": {
+			"current": 2,
+			"list": [
+				{
+					"id": -1,
+					"name": "水果机",
+					"pathName": "pages/fruitMachine/fruitMachine",
+					"query": "",
+					"scene": "1001"
+				},
+				{
+					"id": -1,
+					"name": "大转盘",
+					"pathName": "pages/wheel/wheel",
+					"query": "",
+					"scene": "1001"
+				},
+				{
+					"id": -1,
+					"name": "刮刮乐",
+					"pathName": "pages/scratch/scratch",
+					"query": "",
+					"scene": "1001"
+				}
+			]
+		},
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		}
+	}
+}

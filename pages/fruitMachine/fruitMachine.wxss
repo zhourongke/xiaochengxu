@@ -1,0 +1,29 @@
+@import '../../components/fruitMachine/fruitMachine.wxss'
+page{
+  background: url('http://a1.mzstatic.com/us/r30/Purple6/v4/97/85/d3/9785d335-1405-cc7e-0733-227ccb38241b/screen1136x1136.jpeg') no-repeat;
+  background-size: 100% 100%;
+  background-color: black;
+}
+.index-hd {
+  padding: 80rpx;
+  text-align: center;
+  padding: 20rpx 26rpx 40rpx;
+
+}
+
+.index-desc {
+  font-size: 38rpx;
+}
+
+button{
+  margin-top: 40rpx;
+  width: 400rpx;
+}
+
+
+
+
+button{
+  margin-top: 40rpx;
+  width: 400rpx;
+}

@@ -1,0 +1,8 @@
+<import src="../../components/fruitMachine/fruitMachine.wxml" />
+
+<view class="index">
+  <view class="index-hd">
+    <view class="index-desc" style="color:{{color}};"> 疯狂水果机，让你玩的过瘾!</view>
+  </view>
+  <template is = "fruitMachine" data="{{...machine}}"></template> 
+</view>

@@ -1,0 +1,10 @@
+<import src="../../components/scratch/scratch.wxml" />
+
+<view class="index">
+  <view class="index-hd">
+    <view class="index-desc"></view>
+  </view>
+
+  <template is = "scratch" data = "{{scratch, isScroll}}"></template> 
+  <button bindtap = "onStart">{{txt}}</button> 
+</view>
