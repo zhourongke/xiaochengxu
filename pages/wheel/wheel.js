@@ -5,6 +5,10 @@ Page({
     mode: 1
   },
 
+  data: {
+    border: "4px dashed yellow"
+  },
+
   onLoad () {
     let self = this
     this.wheel = new Wheel(this, {
@@ -32,7 +36,15 @@ Page({
   },
 
   onReady () {
-    console.log("onReady")    
+    console.log("onReady") 
+    wx.setNavigationBarColor({
+        frontColor: '#ffffff',
+        backgroundColor: '#11b3a2',
+        animation: {
+            duration: 400,
+            timingFunc: 'easeIn'
+        }
+    })  
   },
 
   onSwitchMode (event) {

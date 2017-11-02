@@ -1,5 +1,5 @@
 <template name="wheel" >
-  <view class="wheel_wp">
+  <view class="wheel_wp" style="border:{{border}};">
   	<block	wx:if = "{{mode == 1}}">
 	    <image src = "../../components/wheel/images/dial_bg.png"/>
 	    <view class="wheel_pointer" style="-webkit-transform:rotate({{deg}}deg) translateZ(0);transform:rotate({{deg}}deg) translateZ(0)" bindtap="start"><image src = "../../components/wheel/images/dial_pointer.png" /></view>

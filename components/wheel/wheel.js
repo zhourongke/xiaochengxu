@@ -105,6 +105,7 @@ class Wheel {
   switch (mode) {
     this.mode = mode
   }
+  
 
 }
 

@@ -1,9 +1,12 @@
 
 .wheel_wp{
-  width: 500rpx;
-  height: 500rpx;
+  width: 400rpx;
+  height: 400rpx;
   position: relative;
   margin: 0 auto;
+  background: #8f9641;
+  padding: 20px 20px;
+  border-radius: 400rpx;
 }
 .wheel_wp image{
   display: block;

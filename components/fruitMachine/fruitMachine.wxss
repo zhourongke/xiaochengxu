@@ -1,5 +1,5 @@
 .marquee_wp{
-  margin: 248px 20rpx 20px 20rpx;
+  margin: 76% 20rpx 20px 20rpx;
   display: flex;
   flex-wrap: wrap;
   background: #fb0338;

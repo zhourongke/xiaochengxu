@@ -3,7 +3,7 @@ import Scratch from "../../components/scratch/scratch.js"
 Page({
   data: {
     isStart: true,
-    txt: "现在刮奖"
+    txt: "开始刮奖"
   }, 
 
   onLoad () {
@@ -19,7 +19,7 @@ Page({
       callback: () => {
         wx.showModal({
           title: '提示',
-          content: `恭喜您中了500万`,
+          content: `恭喜您中了500万！`,
           showCancel: false,
           success: (res) => {
             this.scratch.reset()
@@ -37,6 +37,14 @@ Page({
 
   onReady () {
     console.log("onReady")
+    wx.setNavigationBarColor({
+        frontColor: '#ffffff',
+        backgroundColor: '#11b3a2',
+        animation: {
+            duration: 400,
+            timingFunc: 'easeIn'
+        }
+    })
   },
 
   onStart () {

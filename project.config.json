@@ -8,11 +8,11 @@
 	},
 	"compileType": "weapp",
 	"libVersion": "1.6.0",
-	"appid": "touristappid",
-	"projectname": "zhou",
+	"appid": "wxcc6975f83f2084d6",
+	"projectname": "zhourk",
 	"condition": {
 		"weapp": {
-			"current": 2,
+			"current": 0,
 			"list": [
 				{
 					"id": -1,
@@ -34,6 +34,12 @@
 					"pathName": "pages/scratch/scratch",
 					"query": "",
 					"scene": "1001"
+				},
+				{
+					"id": -1,
+					"name": "老虎机",
+					"pathName": "pages/slotMachine/slotMachine",
+					"query": ""
 				}
 			]
 		},

@@ -2,7 +2,7 @@ import SlotMachine from "../../components/slotMachine/slotMachine.js"
 
 Page({
   data: {
-
+    color: "yellow"
   },
 
   onLoad () {
@@ -38,7 +38,35 @@ Page({
   },
 
   onReady () {
-    console.log("onReady")    
+    let _this = this
+    console.log("onReady");
+    var color = 1;
+    setInterval(function(){
+      if(color == 1){
+        _this.setData({
+          color: "red"
+        })
+        color = 2;
+      }else if(color == 2){
+        _this.setData({
+          color: "#0cf507"
+        })
+        color = 3;
+      }else if(color == 3){
+        _this.setData({
+          color: "yellow"
+        })
+        color = 1;
+      }
+    },200); 
+    wx.setNavigationBarColor({
+        frontColor: '#ffffff',
+        backgroundColor: '#11b3a2',
+        animation: {
+            duration: 400,
+            timingFunc: 'easeIn'
+        }
+    })   
   },
 
   onStart () {

@@ -1,4 +1,11 @@
 @import '../../components/wheel/wheel.wxss'
+page {
+  width: 100%;
+  height: 100%;
+  background: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1509612631274&di=663510aea28a9d6d957f881c2125366e&imgtype=0&src=http%3A%2F%2Fpic9.nipic.com%2F20100818%2F5456873_090952091686_2.jpg');
+  background-size: 100% 103%;
+}
+
 .index-hd {
   padding: 80rpx;
   text-align: center;
@@ -6,9 +13,10 @@
 }
 
 .index-desc {
-  margin-top: 20rpx;
-  color: #888;
+  padding-top: 40%;
+  color: yellow;
   font-size: 28rpx;
+  font-size: 20px;
 }
 
 .index-tip{
