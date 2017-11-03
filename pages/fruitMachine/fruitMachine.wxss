@@ -2,9 +2,9 @@
 page{
   width: 100%;
   height: 100%;
-  background: url('http://a1.mzstatic.com/us/r30/Purple6/v4/97/85/d3/9785d335-1405-cc7e-0733-227ccb38241b/screen1136x1136.jpeg') no-repeat;
-  background-size: 100% 100%;
-  background-color: black;
+  background: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1509684280195&di=bc22d2845776fa6938a92433fec8f5dc&imgtype=0&src=http%3A%2F%2Fimgb.mumayi.com%2Fandroid%2Fimg_mumayi%2F2014%2F03%2F13%2F53%2F534905%2Fnologo%2Fnologo_pic_534905_0a3186.png') no-repeat;
+  background-size: 100% 80%;
+  background-color: #4a2a04;
 }
 .index-hd {
   padding: 80rpx;

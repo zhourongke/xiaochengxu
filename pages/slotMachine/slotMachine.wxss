@@ -3,8 +3,8 @@
 page {
   width: 100%;
   height:100%;
-  background: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1509616085374&di=bac1fb2b03fbc71eaa6e155906b8ace3&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimage%2Fc0%253Dshijue1%252C0%252C0%252C294%252C40%2Fsign%3D52a3fd8b007b020818c437a20ab098a6%2F7af40ad162d9f2d36b89f1c1a3ec8a136327cc00.jpg');
-  background-size: 100% 103%;
+  background: url('https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2667584325,3728861453&fm=15&gp=0.jpg');
+  background-size: 100% 105%;
   overflow: hidden;
 }
 
@@ -18,7 +18,7 @@ page {
 }
 
 .index-desc {
-  padding-top: 18%;
+  padding-top: 11%;
   color: #888888;
   font-size: 40rpx;
 }
@@ -27,8 +27,8 @@ page {
 button{
   width: 60%;
   background: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1509617851073&di=75ae2860f67574f8c42430db9a20eef0&imgtype=0&src=http%3A%2F%2Fpic48.huitu.com%2Fres%2F20160115%2F573641_20160115115246105600_1.jpg');
-  color: #1e2b1e;
+  color: white;
   font-weight: bold;
-  border: 2px solid #ac6922;
+  border: 2px solid yellow;
   margin-top: 12%;
 }

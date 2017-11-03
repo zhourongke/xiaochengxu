@@ -1,8 +1,8 @@
 page{
   width: 100%;
   height: 100%;
-	background: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1509546365298&di=27a9c45b91af74df82766cbe7662e362&imgtype=0&src=http%3A%2F%2Fpic26.nipic.com%2F20121228%2F10621269_105638864000_2.jpg') no-repeat;
-	background-size: 100% 103%;
+	background: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1509684717131&di=8501ea04a0b1e9f8861a57730e650b5c&imgtype=0&src=http%3A%2F%2Fimg.weimob.com%2Fstatic%2Fc7%2F7e%2F5a%2Fimage%2F20140424%2F20140424224133_58318.jpg') no-repeat;
+	background-size: 100% 50%;
   overflow: hidden;
 }
 
@@ -12,7 +12,7 @@ page{
   text-align: center;
 }
 .index-desc {
-  padding-top: 14%;
+  padding-top: 90%;
   color: #888888;
   font-size: 28rpx;
 }
@@ -22,18 +22,7 @@ button{
   background: red;
   color: white;
 }
-.index-yi {
-  padding-top: 58%;
-  color: yellow;
-}
 
-.index-er {
-  color: yellow;
-}
-
-.index-san {
-  color: yellow;
-}
 
 
 

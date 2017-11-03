@@ -2,9 +2,6 @@
 
 <view class="index">
   <view class="index-hd">
-	<view class="index-yi">一等奖 500万元</view>
-	<view class="index-er">二等奖 100万元</view>
-	<view class="index-san">三等奖 10万元</view>
     <view class="index-desc"></view>
   </view>
 
